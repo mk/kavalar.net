@@ -1,0 +1,7 @@
+{:deps {org.clojure/clojure {:mvn/version "1.12.0-alpha3"}
+        io.github.nextjournal/clerk {:git/sha "d80187013d7b7b96db3d8b114b8d99f687170668"}}
+
+ :aliases {:dev {:extra-paths ["dev"]}           
+           :nextjournal/launch {:exec-fn nextjournal.clerk/serve!}
+           :nextjournal/clerk {:exec-fn nextjournal.clerk/build!
+                               :exec-args {:paths ["README.md"]}}}}
