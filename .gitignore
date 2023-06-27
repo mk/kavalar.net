@@ -17,7 +17,6 @@ clerk.iml
 *~
 .work
 /build
-/public/build
 .nrepl-port
 .clj-kondo/marick
 .clj-kondo/nextjournal/clerk
