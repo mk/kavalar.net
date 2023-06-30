@@ -2,7 +2,7 @@
         io.github.nextjournal/simple-http-server {:git/sha "30061b0bb413369f6c180d8a9466f003fb13e08c"}}
 
  :aliases {:dev {:extra-paths ["dev"]}           
-           :nextjournal/launch {:exec-fn nextjournal.simple-http-server/serve!
+           :nextjournal/garden {:exec-fn nextjournal.simple-http-server/serve!
                                 :exec-args {:path "public/build"
                                             :port 7777}}
            :nextjournal/clerk {:extra-deps {io.github.nextjournal/clerk {:git/sha "d80187013d7b7b96db3d8b114b8d99f687170668"}}
